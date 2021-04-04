@@ -18,11 +18,12 @@
     <meta name="og:type" content="website">
 
     <link rel="stylesheet" href="css/main.css">
-    <script src="js/vendor/lazysizes.min.js" async=""></script>
+    <script src="https://unpkg.com/scrollreveal@4"></script>
     <script>
-        lazySizes.init();
+        ScrollReveal({
+            reset: false
+        });
     </script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 </head>
 
 <body>
@@ -246,16 +247,21 @@
                             LinkedIn
                         </a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="https://twitter.com/kar22am">
                             Twitter </a>
-                    </li>
+                    </li> -->
 
                 </ul>
             </section>
         </footer>
     </div>
     <script src="js/main.js"></script>
+    <script>
+      ScrollReveal().reveal('figure', {
+        delay: 300
+      });
+    </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-88072022-1"></script>

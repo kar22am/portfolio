@@ -7018,7 +7018,7 @@ figure {
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: auto; }
       .case main .intro {
-        grid-column: 3 / 8;
+        grid-column: 3 / 10;
         grid-row: 2 / 3;
         grid-auto-rows: 2fr; }
       .case main .grid-item-center {
@@ -7036,7 +7036,33 @@ figure {
       .case main blockquote,
       .case main table,
       .case main video {
-        grid-column: 3 / 8; }
+        grid-column: 3 / 10; }
+      .case main video {
+        justify-self: center; } }
+  @media (min-width: 44.54545em) {
+    .case main {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: auto; }
+      .case main .intro {
+        grid-column: 3 / 9;
+        grid-row: 2 / 3;
+        grid-auto-rows: 2fr; }
+      .case main .grid-item-center {
+        justify-self: center; }
+      .case main .grid-item-left {
+        justify-self: start; }
+      .case main .grid-item-right {
+        justify-self: end; }
+      .case main h2,
+      .case main h3,
+      .case main h4,
+      .case main p,
+      .case main ol,
+      .case main ul,
+      .case main blockquote,
+      .case main table,
+      .case main video {
+        grid-column: 3 / 9; }
       .case main video {
         justify-self: center; } }
 
