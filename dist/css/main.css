@@ -6986,9 +6986,9 @@ figure {
       .about main ol,
       .about main ul,
       .about main h2 {
-        grid-column: 3 / 9; }
+        grid-column: 3 / 10; }
       .about main figure {
-        grid-column: 3 / 9;
+        grid-column: 3 / 10;
         justify-self: center;
         margin: 0 0 3em; }
         .about main figure img {
